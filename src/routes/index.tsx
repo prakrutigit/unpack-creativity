@@ -3,8 +3,6 @@ import { motion, useScroll, useTransform, useMotionValue, useSpring, AnimatePres
 import { useEffect, useRef, useState } from "react";
 import paperboat from "@/assets/paperboat.jpg";
 import nariyal from "@/assets/nariyal.jpg";
-import kiwi from "@/assets/kiwi.jpg";
-import chaiwala from "@/assets/chaiwala.jpg";
 import portrait from "@/assets/portrait.jpg";
 
 export const Route = createFileRoute("/")({
@@ -37,32 +35,6 @@ const projects = [
     bg: "#667342",
     fg: "#F6F0E7",
     accent: "#F6F0E7",
-  },
-  {
-    n: "03",
-    name: "Kiwi Premium Ice Cream",
-    subtitle: "Orange Experience Packaging",
-    tagline: "Scoop. Top. Smile.",
-    description:
-      "An ice-cream box shaped, textured and coloured like a real orange. Inside: orange-flavoured ice cream, frozen fruit cubes, and a reusable orange-shaped spoon. Freshness, function, and delight in one unboxing.",
-    keywords: ["Experience Design", "Interactive Unboxing", "Playful Packaging", "Reusable Elements"],
-    img: kiwi,
-    bg: "#F47C35",
-    fg: "#171717",
-    accent: "#4A183D",
-  },
-  {
-    n: "04",
-    name: "Chaiwala",
-    subtitle: "Creative Branding Poster",
-    tagline: "Battery Low? Chai Flow!",
-    description:
-      "A poster campaign positioning chai as fuel for the brain. A cup of chai plugs into a glowing mind via a charging cable — bold typography and a cinematic palette turn a daily ritual into a memorable brand moment.",
-    keywords: ["Creative Advertising", "Visual Metaphor", "Brand Communication", "Poster Design"],
-    img: chaiwala,
-    bg: "#113E3D",
-    fg: "#F6F0E7",
-    accent: "#C7B8E8",
   },
 ];
 
@@ -517,7 +489,7 @@ function Works() {
             <span className="italic text-[var(--plum)]">a purpose.</span>
           </h2>
           <p className="max-w-sm text-sm text-[var(--ink)]/60">
-            Four projects. Four ways to turn packaging into an experience worth remembering.
+            Two projects. Two ways to turn packaging into an experience worth remembering.
           </p>
         </div>
       </div>
